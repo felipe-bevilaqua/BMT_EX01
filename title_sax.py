@@ -21,7 +21,6 @@ class XMLHandler(xml.sax.ContentHandler):
             self.title = []
             self.count +=1
             if self.count > 1:
-                #print(self.record_list[-2])
                 print(' '.join(self.title_list[-1])+',', file=open('titulos.csv', "a"))
         
         elif (self.CurrentData == "TITLE"):
@@ -33,8 +32,6 @@ class XMLHandler(xml.sax.ContentHandler):
         
     # Call when an elements ends
     def endElement(self, tag):
-        #if(self.CurrentData == "TITLE"):
-            #print("TITLE:", self.title)
         self.CurrentData = ""
         
 
