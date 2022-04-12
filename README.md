@@ -2,8 +2,8 @@
 Exercicío 1 da disciplina Busca e Mineração de Texto do PESC/UFRJ ministrada no período 2022.1 da COPPE.
 
 ## Descrição:
-O objetivo deste exercício foi praticar processamento de textos em formato XML. 
+O objetivo deste exercício foi promover um primeiro contato com o processamento de textos em formato XML com os parsers DOM e SAX em Python. 
 
-O arquivo .....xml é um arquivo no formato XML que contêm informações de artigos acadêmicos.
+O arquivo cf79.xml é um arquivo no formato XML que contêm informações de artigos acadêmicos como autores, título, resumo, citações, entre outros.
 
-O arquivo foi processado usando o parser DOM através da ... de python dom.minidom para gerar um arquivo .xml contendo o nome dos autores que aparecem no documento. Além disso, o arquivo foi processado usando a ... SAX para gerar um arquivo .csv com o nome dos títulos dos artigos presentes no documento.
+O arquivo foi processado usando o parser DOM através da implementação dom.minidom em Python para gerar um arquivo .xml contendo o nome dos autores que aparecem no documento. Além disso, o arquivo foi processado usando o parser SAX para gerar um arquivo .csv com o nome dos títulos dos artigos presentes no documento.
