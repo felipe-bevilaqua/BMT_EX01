@@ -3,6 +3,7 @@ import xml.sax
 class XMLHandler(xml.sax.ContentHandler):
     def __init__(self):
         self.CurrentData = ""
+        self.title = ""
         self.title_list = []
         self.record_list = []
         self.record = ""
